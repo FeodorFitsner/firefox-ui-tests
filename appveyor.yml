@@ -4,6 +4,8 @@ environment:
   matrix:
     - PYTHON: "C:/Python27"
 
+os: unstable
+
 platform:
   - x86
 
