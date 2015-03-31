@@ -33,9 +33,3 @@ test_script:
   # Bug 1125732 - Workaround for hang during uninstall of the build
   # - "%PYTHON%/Scripts/firefox-ui-tests --installer firefox-installer.exe"
   - "%PYTHON%/Scripts/firefox-ui-tests --binary firefox-installer/firefox.exe
-
-notifications:
-  email:
-    #- dev-automation@lists.mozilla.org
-  irc:
-    #- "irc.mozilla.org#automation"
